@@ -1,1 +1,1 @@
-SharedConfig = {}
+Config = {}
