@@ -14,7 +14,7 @@ export const VisibilityProvider: FC<Props> = ({ children }) => {
     isEnvBrowser() ? true : false
   );
 
-  useNuiEvent('SET_VISIBLE', ({ toggle }) => setVisible(toggle));
+  useNuiEvent('SET_VISIBLE', ({ status }) => setVisible(status));
 
   if (!visible) return;
 
